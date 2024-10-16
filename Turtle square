@@ -1,0 +1,6 @@
+import turtle
+turtle.Screen().setup(400, 400)
+bg = turtle.Turtle()
+for i in range(4):
+    bg.forward(100)
+    bg.right(90)
